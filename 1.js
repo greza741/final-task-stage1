@@ -20,7 +20,7 @@ function totalUangInvestor() {
     const labaSahamB = sahamB * sahamBBunga * 2
 
     const totalLaba = labaDepo + labaObli + labaSahamA + labaSahamB + totalUang
-    console.log(`Total uang anda setelah dua tahun : Rp ${totalLaba.toLocaleString()}`);
+    console.log(`Total uang anda setelah dua tahun : Rp ${totalLaba.toLocaleString()}`)
 }
 
 totalUangInvestor()

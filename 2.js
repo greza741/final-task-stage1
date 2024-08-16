@@ -10,7 +10,7 @@ function soal2(arr) {
 
         if (index !== -1) {
             result.push(arr[index])
-            arr.splice(index, 1);
+            arr.splice(index, 1)
         }
     }
 
